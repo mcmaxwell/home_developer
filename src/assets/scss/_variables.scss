@@ -1,0 +1,25 @@
+$default-time: .3s;
+
+$width: 1000px;
+
+$radius: 2px;
+
+$laptop: "screen and (min-width: 769px)";
+
+$top-bg: #111111;
+$menu-link: #a2a1a1;
+$menu-link-hover: #f2de7b;
+
+$brand-text-shadow-orange: 0 0 10px rgba(231, 82, 57, 0.75);
+$brand-text-shadow-blue: 0 0 9px rgba(57, 139, 231, 0.75);
+$brand-shadow-orange: 0 0 8px 5px rgba(231, 82, 57, 0.75);
+$brand-shadow-blue: 0 0 8px 1px rgba(57, 139, 231, 0.75);
+
+
+$margin-1: 10px;
+
+
+@function rem-calc($size) {
+  $remSize: $size / 16;
+  @return #{$remSize}rem;
+}

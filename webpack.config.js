@@ -29,7 +29,11 @@ module.exports = {
        allChunks: true
     }),
     new webpack.HotModuleReplacementPlugin(),
-    new webpack.NoEmitOnErrorsPlugin()
+    new webpack.NoEmitOnErrorsPlugin(),
+    new webpack.ProvidePlugin({
+      $: 'jquery',
+      jQuery: 'jquery',
+    })
   ],
   output: {
     filename: '[name].bundle.js',
@@ -67,6 +71,9 @@ module.exports = {
                     sourceMap: true
                 }
             },
+            {
+              loader: 'resolve-url-loader'
+            },
              {
                  loader: "sass-loader", options: {
                     sourceMap: true
@@ -78,14 +85,20 @@ module.exports = {
       },
       {
         test: /\.(png|svg|jpg|gif)$/,
+        exclude: [/fonts/],
         use: [
-          'file-loader'
+          {
+            loader: 'file-loader?name=./src/assets/img/[name].[ext]',
+          }
         ]
       },
       {
-        test: /\.(woff|woff2|eot|ttf|otf)$/,
+        test: /\.(woff|woff2|eot|ttf|otf|svg)$/,
+        exclude: [/images/],
         use: [
-          'file-loader'
+          {
+            loader: 'file-loader?name=./src/assets/fonts/[name].[ext]'
+          }
         ]
       }
     ]

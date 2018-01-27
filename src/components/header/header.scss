@@ -1,0 +1,92 @@
+@import 'src/assets/scss/variables';
+
+.header__content {
+  background-color: #000000;
+  height: 81px;
+  position: relative;
+
+  &::after,
+  &::before {
+    content: "";
+    width: 100%;
+    height: 1px;
+    background: #2c6f91;
+    background: linear-gradient(to right, #2c6f91 0%,#2c6f91 10%,#61aed4 20%,#afe1fa 30%,#61aed4 40%,#afe1fa 50%,#61aed4 60%,#afe1fa 69%,#61aed4 80%,#2c6f91 90%,#2c6f91 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#2c6f91', endColorstr='#2c6f91',GradientType=1 );
+    position: absolute;
+    top: 0;
+    left: 0;
+  }
+  &::after {
+    top: auto;
+    bottom: 0;
+  }
+
+  .inner {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  .logo {
+    margin-left: -243px;
+  }
+}
+
+
+.header__content-action {
+  display: flex;
+  align-items: flex-start;
+
+  .btn-registration {
+    margin-right: 24px;
+  }
+
+  .btn-login {
+    margin-left: 24px;
+  }
+}
+
+.header__login {
+  display: flex;
+  align-items: flex-start;
+  input:not([type=submit]) {
+    background-color: #f1f0f0;
+    border-radius: $radius;
+    max-width: 113px;
+    margin-right: 10px;
+    font-size: rem-calc(12);
+    color: #838484;
+    font-style: italic;
+    padding: 9px;
+    outline: none;
+    border: 0;
+
+  }
+}
+
+.header__login-forgot {
+  font-style: italic;
+  display: block;
+  color: #a2a1a1;
+  font-size: 11px;
+  font-weight: 300;
+  margin: 7px;
+  transition: all $default-time;
+
+  &:hover {
+    color: $menu-link-hover;
+    text-shadow:  $brand-text-shadow-orange,
+                  $brand-text-shadow-orange,
+                  $brand-text-shadow-orange,
+                  $brand-text-shadow-orange,
+                  $brand-text-shadow-orange,
+                  $brand-text-shadow-orange,
+                  $brand-text-shadow-orange,
+                  $brand-text-shadow-orange;
+  }
+}
+
+.password-contain {
+  display: inline-block;
+}

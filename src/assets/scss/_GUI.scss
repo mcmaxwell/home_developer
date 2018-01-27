@@ -1,0 +1,74 @@
+input:not([type=submit]):not([type=radio]):not([type=checkbox]) {
+
+}
+
+
+.btn {
+  display: inline-block;
+  font-size: rem-calc(14);
+  font-weight: 700;
+  text-transform: uppercase;
+  border-radius: $radius;
+  position: relative;
+  transition: all $default-time;
+
+  &.btn-blue {
+    background: url('./assets/img/general/btn-blue.png') center center/cover no-repeat;
+    color: #81fbff;
+
+    &:hover {
+      background: url('./assets/img/general/btn-blue.png') center center/cover no-repeat, url('./assets/img/general/btn-blue.png') center center/cover no-repeat;
+
+      &::after {
+        box-shadow: 0 0 10px 8px rgba(57, 139, 231, 0.75), 0 0 10px 8px rgba(57, 139, 231, 0.75);
+      }
+    }
+
+    &:after {
+      content: '';
+      position: absolute;
+      top: 2px;
+      left: 2px;
+      right: 2px;
+      bottom: 2px;
+      border: 2px solid #81fbff;
+      box-shadow: 0 0 10px 8px rgba(57, 139, 231, 0.75);
+      border-radius: $radius;
+      transition: all $default-time;
+    }
+  }
+  &.btn-orange {
+    background: url('./assets/img/general/btn-orange.png') center center/cover no-repeat;
+    color: #ffd3c4;
+
+    &:hover {
+      background: url('./assets/img/general/btn-orange.png') center center/cover no-repeat, url('./assets/img/general/btn-orange.png') center center/cover no-repeat;
+
+      &::after {
+        box-shadow: 0 0 10px 8px rgba(231, 82, 57, 0.75), 0 0 10px 8px rgba(231, 82, 57, 0.75);
+      }
+    }
+
+    &::after {
+      content: '';
+      position: absolute;
+      top: 2px;
+      left: 2px;
+      right: 2px;
+      bottom: 2px;
+      border: 2px solid #ffce81;
+      transition: all $default-time;
+      box-shadow: 0 0 10px 8px rgba(231, 82, 57, 0.75);
+      border-radius: $radius;
+    }
+  }
+
+  &.btn-registration {
+    padding: 7px 17px 9px;
+  }
+
+  &.btn-login {
+    padding: 7px 24px 9px;
+    border: 0;
+  }
+}
