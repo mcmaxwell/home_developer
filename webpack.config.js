@@ -94,7 +94,7 @@ module.exports = {
       },
       {
         test: /\.(woff|woff2|eot|ttf|otf|svg)$/,
-        exclude: [/images/],
+        exclude: [/img/],
         use: [
           {
             loader: 'file-loader?name=./src/assets/fonts/[name].[ext]'

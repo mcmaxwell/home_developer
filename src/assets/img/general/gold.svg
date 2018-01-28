@@ -1,0 +1,155 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="31.61mm" height="31.61mm" viewBox="0 0 89.6 89.6">
+  <defs>
+    <style>
+      .a {
+        fill: url(#a);
+      }
+
+      .b {
+        mask: url(#b);
+        filter: url(#n);
+      }
+
+      .c, .k {
+        mix-blend-mode: multiply;
+      }
+
+      .c {
+        fill: url(#d);
+      }
+
+      .d {
+        isolation: isolate;
+      }
+
+      .e {
+        fill: url(#e);
+      }
+
+      .f {
+        fill: url(#f);
+      }
+
+      .g {
+        fill: url(#g);
+      }
+
+      .h {
+        fill: url(#h);
+      }
+
+      .i {
+        fill: url(#i);
+      }
+
+      .j {
+        fill: url(#j);
+      }
+
+      .k {
+        fill: #d8a10b;
+      }
+
+      .l {
+        fill: url(#k);
+      }
+
+      .m {
+        mask: url(#l);
+      }
+
+      .n {
+        mask: url(#m);
+      }
+
+      .o {
+        filter: url(#c);
+      }
+    </style>
+    <linearGradient id="a" x1="13.12" y1="13.12" x2="38.43" y2="38.43" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#fff"/>
+      <stop offset="1" stop-color="#fff"/>
+    </linearGradient>
+    <filter id="c" x="0" y="-8592" width="68.07" height="32766" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+      <feFlood flood-color="#fff" result="bg"/>
+      <feBlend in="SourceGraphic" in2="bg"/>
+    </filter>
+    <mask id="b" x="0" y="-8592" width="68.07" height="32766" maskUnits="userSpaceOnUse">
+      <g class="o"/>
+    </mask>
+    <linearGradient id="d" x1="13.12" y1="13.12" x2="38.43" y2="38.43" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#1a1a1a"/>
+      <stop offset="0.02" stop-color="#1b1b1b"/>
+      <stop offset="0.59" stop-color="#2d2d2d"/>
+      <stop offset="1" stop-color="#333"/>
+    </linearGradient>
+    <linearGradient id="e" x1="13.12" y1="13.12" x2="76.48" y2="76.48" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#f6e22c"/>
+      <stop offset="0.32" stop-color="#ce8d00"/>
+      <stop offset="0.5" stop-color="#ddac11"/>
+      <stop offset="0.68" stop-color="#e1b515"/>
+      <stop offset="0.86" stop-color="#ce8d00"/>
+      <stop offset="1" stop-color="#9e4a01"/>
+    </linearGradient>
+    <linearGradient id="f" x1="14.75" y1="14.75" x2="74.85" y2="74.85" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#9e4a01"/>
+      <stop offset="0.14" stop-color="#ce8d00"/>
+      <stop offset="0.32" stop-color="#e1b515"/>
+      <stop offset="0.5" stop-color="#ddac11"/>
+      <stop offset="0.68" stop-color="#ce8d00"/>
+      <stop offset="1" stop-color="#f6e22c"/>
+    </linearGradient>
+    <linearGradient id="g" x1="20.04" y1="20.04" x2="69.56" y2="69.56" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#d7b34a"/>
+      <stop offset="0.22" stop-color="#f3e884"/>
+      <stop offset="0.47" stop-color="#c9972b"/>
+      <stop offset="0.68" stop-color="#c9972b"/>
+      <stop offset="1" stop-color="#9e6127"/>
+    </linearGradient>
+    <linearGradient id="h" x1="20.04" y1="20.04" x2="69.56" y2="69.56" xlink:href="#e"/>
+    <linearGradient id="i" x1="21.76" y1="21.76" x2="67.84" y2="67.84" xlink:href="#f"/>
+    <linearGradient id="j" x1="33.16" y1="30.14" x2="61.76" y2="58.73" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#f4de2a"/>
+      <stop offset="0.5" stop-color="#e1b515"/>
+      <stop offset="1" stop-color="#ce8d00"/>
+    </linearGradient>
+    <linearGradient id="k" x1="44.8" y1="64.37" x2="44.8" y2="25.23" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#ce8d00"/>
+      <stop offset="0.5" stop-color="#e1b515"/>
+      <stop offset="1" stop-color="#f4de2a"/>
+    </linearGradient>
+    <mask id="l" x="0" y="0" width="68.07" height="68.07" maskUnits="userSpaceOnUse">
+      <path class="a" d="M6.51,68.06A44.81,44.81,0,0,1,68.06,6.51C68.46,9.16,9.16,68.46,6.51,68.06Z"/>
+    </mask>
+    <filter id="n" x="0" y="0" width="68.07" height="68.07" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+      <feFlood flood-color="#fff" result="bg"/>
+      <feBlend in="SourceGraphic" in2="bg"/>
+    </filter>
+    <mask id="m" x="0" y="0" width="68.07" height="68.07" maskUnits="userSpaceOnUse">
+      <g class="b">
+        <path class="c" d="M6.51,68.06A44.81,44.81,0,0,1,68.06,6.51C68.46,9.16,9.16,68.46,6.51,68.06Z"/>
+      </g>
+    </mask>
+  </defs>
+  <title>gold</title>
+  <g class="d">
+    <g>
+      <g>
+        <circle class="e" cx="44.8" cy="44.8" r="44.8"/>
+        <circle class="f" cx="44.8" cy="44.8" r="42.5"/>
+        <circle class="g" cx="44.8" cy="44.8" r="35.02"/>
+        <circle class="h" cx="44.8" cy="44.8" r="35.02"/>
+        <circle class="i" cx="44.8" cy="44.8" r="32.58"/>
+        <polygon class="j" points="52.12 23.23 44.31 23.23 43.8 23.23 43.35 23.48 36.77 27.11 35.48 27.82 35.77 29.25 37.34 37.09 37.88 39.78 40.28 38.45 41.54 37.74 41.54 64.37 41.54 66.37 43.54 66.37 52.12 66.37 54.12 66.37 54.12 64.37 54.12 25.23 54.12 23.23 52.12 23.23"/>
+        <polygon class="k" points="52.12 23.23 44.31 23.23 43.8 23.23 43.35 23.48 36.77 27.11 35.48 27.82 35.77 29.25 37.34 37.09 37.88 39.78 40.28 38.45 41.54 37.74 41.54 64.37 41.54 66.37 43.54 66.37 52.12 66.37 54.12 66.37 54.12 64.37 54.12 25.23 54.12 23.23 52.12 23.23"/>
+        <polygon class="k" points="52.12 23.23 44.31 23.23 43.8 23.23 43.35 23.48 36.77 27.11 35.48 27.82 35.77 29.25 37.34 37.09 37.88 39.78 40.28 38.45 41.54 37.74 41.54 64.37 41.54 66.37 43.54 66.37 52.12 66.37 54.12 66.37 54.12 64.37 54.12 25.23 54.12 23.23 52.12 23.23"/>
+        <polygon class="l" points="39.18 36.7 43.41 34.34 43.41 64.37 51.99 64.37 51.99 25.23 44.19 25.23 37.61 28.86 39.18 36.7"/>
+      </g>
+      <g class="m">
+        <g class="n">
+          <path class="a" d="M6.51,68.06A44.81,44.81,0,0,1,68.06,6.51C68.46,9.16,9.16,68.46,6.51,68.06Z"/>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>

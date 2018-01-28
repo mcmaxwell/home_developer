@@ -19,18 +19,22 @@ class TopCarusel extends React.Component {
     const settings = {
       infinite: true,
       slidesToShow: 1,
-      slidesToScroll: 1
+      slidesToScroll: 1,
+      arrows: false,
+      autoplay: true
     };
     return (
-      <Slider {...settings}>
-        {
-          data.map((val, index) => {
-            <a href={val.url} target="_blank" key={index}>
-              <img src={val.src} />
-            </a>
-          })
-        }
-      </Slider>
+      <section className="top-carusel">
+        <Slider {...settings} classNme="sss">
+          {
+            data.map((val, index) => (
+              <a href={val.url} target="_blank" key={index}>
+                <img src={val.src} />
+              </a>
+            ))
+          }
+        </Slider>
+      </section>
     );
   }
 }

@@ -1,3 +1,6 @@
+@import "~slick-carousel/slick/slick.css";
+@import "~slick-carousel/slick/slick-theme.css";
+
 body {
   font-family: 'Roboto Condensed', sans-serif;
   font-size: rem-calc(14);
@@ -17,4 +20,5 @@ a {
   max-width: $width;
   width: 100%;
   margin: 0 auto;
+  padding: 0 20px;
 }

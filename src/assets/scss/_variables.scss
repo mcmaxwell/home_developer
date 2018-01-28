@@ -1,6 +1,6 @@
 $default-time: .3s;
 
-$width: 1000px;
+$width: 1040px;
 
 $radius: 2px;
 
@@ -17,9 +17,15 @@ $brand-shadow-blue: 0 0 8px 1px rgba(57, 139, 231, 0.75);
 
 
 $margin-1: 10px;
-
+$margin-5: 50px;
 
 @function rem-calc($size) {
   $remSize: $size / 16;
   @return #{$remSize}rem;
+}
+
+%list-reset {
+  margin: 0;
+  padding: 0;
+  list-style: none;
 }

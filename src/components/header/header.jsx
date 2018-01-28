@@ -21,7 +21,6 @@ const Header = () => (
               <a href="#" className="header__login-forgot">Forgot your password?</a>
             </div>
             <button type="submit" name="submit" className="btn btn-orange btn-login">Login</button>
-
           </form>
         </div>
       </div>
