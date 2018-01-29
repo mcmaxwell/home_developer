@@ -7,9 +7,9 @@
   margin-bottom: 20px;
 
   @media #{$mobile} {
+    margin: 0;
     width: 50%;
     margin-right: 25px;
-    margin: 0;
   }
 
   @media #{$laptop} {
