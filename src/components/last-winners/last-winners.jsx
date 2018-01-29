@@ -49,7 +49,17 @@ class LastWinners extends React.Component {
       slidesToScroll: 3,
       arrows: true,
       autoplay: true,
-      autoplaySpeed: 5000
+      autoplaySpeed: 5000,
+      responsive: [
+        {
+          breakpoint: 480,
+          settings: {
+            slidesToShow: 1,
+            slidesToScroll: 1,
+            arrows: false
+          }
+        },
+      ]
     };
     return (
       <section className="last-winners">

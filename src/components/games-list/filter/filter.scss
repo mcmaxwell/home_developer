@@ -6,21 +6,32 @@
   align-items: flex-start;
   width: 100%;
   margin-top: 12px;
+  flex-direction: column;
+
+  @media #{$laptop} {
+    flex-direction: row;
+  }
 
   a {
     box-shadow: 0 0 10px 3px rgba(231, 82, 57, 0.75),  0 0 10px 3px rgba(231, 82, 57, 0.75) inset;
     border: solid 2px #ffce81;
     color: #ffce81;
     text-shadow: 0 0 10px rgba(231, 82, 57, 0.75), 0 0 10px rgba(231, 82, 57, 0.75), 0 0 10px rgba(231, 82, 57, 0.75), 0 0 10px rgba(231, 82, 57, 0.75), 0 0 8px rgba(231, 82, 57, 0.75);
-    font-family: rem-calc(14.4);
+    font-size: rem-calc(14.4);
     border-radius: $radius;
     text-transform: uppercase;
     display: flex;
     align-items: center;
     justify-content: center;
     height: 32px;
-    width: calc(20% - 24px);
+    width: 100%;
     transition: all $default-time;
+    margin-bottom: 10px;
+
+    @media #{$laptop} {
+      width: calc(20% - 24px);
+      margin-bottom: 0;
+    }
 
     &:hover {
       background: url(./img/general/black-button.png) center center/cover no-repeat;
@@ -41,11 +52,20 @@
   justify-content: space-between;
   align-items: center;
   margin: 5px 0;
+  flex-direction: column;
+
+  @media #{$mobile} {
+    flex-direction: row;
+  }
 
   &__sort {
     color: #fff;
     font-size: rem-calc(13);
     text-transform: uppercase;
+    margin: 20px 0;
+    @media #{$mobile} {
+      margin: 0;
+    }
 
     a {
       color: #fff;

@@ -6,9 +6,7 @@ import PropTypes from 'prop-types';
 class Popup extends React.Component {
 
   render() {
-    if(!this.props.show) {
-      return null;
-    }
+
     return (
       <div className={"popup " + this.props.classname} onClick={this.props.closePopup}>
         <div className="popup-content" onClick={this.props.unclosePopup}>

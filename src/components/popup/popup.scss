@@ -9,12 +9,12 @@
   height: 100%;
   z-index: 1000;
   opacity: 0;
-  transition: opacity $default-time top $default-time $default-time;
+  transition: opacity $default-time,  top 0s .6s;
 
   &.active {
     opacity: 1;
     top: 0;
-    transition: top 0s opacity $default-time;
+    transition: top 0s ,  opacity $default-time ;
   }
 
   &-content {

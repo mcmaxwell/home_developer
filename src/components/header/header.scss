@@ -1,9 +1,12 @@
 @import 'src/assets/scss/variables';
 
 .header__content {
-  background-color: #000000;
-  height: 81px;
+  background-color: #000;
   position: relative;
+
+  @media #{$laptop} {
+    height: 81px;
+  }
 
   &::after,
   &::before {
@@ -17,6 +20,7 @@
     top: 0;
     left: 0;
   }
+
   &::after {
     top: auto;
     bottom: 0;
@@ -26,13 +30,19 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
+    flex-direction: column;
+
+    @media #{$laptop} {
+      flex-direction: row;
+    }
   }
 
   .logo {
-    margin-left: -243px;
+    @media #{$laptop} {
+      margin-left: -243px;
+    }
   }
 }
-
 
 .header__content-action {
   display: flex;
@@ -50,6 +60,11 @@
 .header__login {
   display: flex;
   align-items: flex-start;
+  flex-direction: column;
+  @media #{$mobile} {
+    flex-direction: row;
+  }
+
   input:not([type=submit]) {
     background-color: #f1f0f0;
     border-radius: $radius;
@@ -61,7 +76,11 @@
     padding: 9px;
     outline: none;
     border: 0;
+    margin-bottom: 20px;
 
+    @media #{$mobile} {
+      margin-bottom: 0;
+    }
   }
 }
 

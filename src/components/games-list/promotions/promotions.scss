@@ -1,10 +1,20 @@
 @import 'src/assets/scss/variables';
 
 .promotions {
-  width: calc(40% - 25px);
+  width: 100%;
   float: right;
   position: relative;
-  margin-right: 25px;
+  margin-bottom: 20px;
+
+  @media #{$mobile} {
+    width: 50%;
+    margin-right: 25px;
+    margin: 0;
+  }
+
+  @media #{$laptop} {
+    width: calc(40% - 25px);
+  }
 
   &__list {
     border-style: solid;
@@ -17,7 +27,7 @@
     width: 100%;
     display: block;
     background-color: #d6f0ff;
-    box-shadow: 0 0 20px 4px rgba(85, 105, 255, 0.72);
+    box-shadow: 0 0 20px 4px rgba(85, 105, 255, .72);
     border: solid 1px #8ac1ff;
     color: #10154d;
     font-size: rem-calc(20);

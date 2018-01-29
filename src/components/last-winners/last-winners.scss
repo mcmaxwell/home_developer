@@ -10,6 +10,13 @@
   padding: 22px 0;
   .inner {
     display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    @media #{$desktop} {
+      flex-direction: row;
+      align-items: flex-start;
+    }
   }
 
   h4 {
@@ -31,6 +38,7 @@
 .last-winners__carusel {
   max-width: 507px;
   padding: 0 25px;
+  width: 100%;
 
   &-item {
     color: #fff;
@@ -123,11 +131,22 @@
 }
 
 .jackpot-info__contain {
-  margin-left: $margin-5;
+  width: 100%;
+  margin: 20px 0;
+
+  @media #{$mobile} {
+    margin: 0;
+    margin-left: $margin-5;
+    width: auto;
+  }
 
   ul {
     display: flex;
     @extend %list-reset;
+    flex-direction: column;
+    @media #{$mobile} {
+      flex-direction: row;
+    }
 
     li {
       display: flex;
