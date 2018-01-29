@@ -1,1 +1,41 @@
 @import 'src/assets/scss/variables';
+
+.popup {
+  position: fixed;
+  background-color: rgba(0, 0, 0, .6);
+  width: 100%;
+  left: 0;
+  top: -200%;
+  height: 100%;
+  z-index: 1000;
+  opacity: 0;
+  transition: opacity $default-time top $default-time $default-time;
+
+  &.active {
+    opacity: 1;
+    top: 0;
+    transition: top 0s opacity $default-time;
+  }
+
+  &-content {
+    max-width: 489px;
+    width: 100%;
+    box-shadow: 0 0 25px 5px rgba(106, 219, 252, 0.35);
+    border-radius: 2px;
+    border: 1px solid #138ff7;
+    background-color: #000722;
+    padding: 49px 56px 38px;
+    box-sizing: border-box;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #fff;
+  }
+
+  .close {
+    position: absolute;
+    top: 15px;
+    right: 15px;
+  }
+}

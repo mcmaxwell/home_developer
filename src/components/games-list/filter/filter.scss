@@ -1,1 +1,90 @@
 @import 'src/assets/scss/variables';
+
+.menu-games {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  width: 100%;
+  margin-top: 12px;
+
+  a {
+    box-shadow: 0 0 10px 3px rgba(231, 82, 57, 0.75),  0 0 10px 3px rgba(231, 82, 57, 0.75) inset;
+    border: solid 2px #ffce81;
+    color: #ffce81;
+    text-shadow: 0 0 10px rgba(231, 82, 57, 0.75), 0 0 10px rgba(231, 82, 57, 0.75), 0 0 10px rgba(231, 82, 57, 0.75), 0 0 10px rgba(231, 82, 57, 0.75), 0 0 8px rgba(231, 82, 57, 0.75);
+    font-family: rem-calc(14.4);
+    border-radius: $radius;
+    text-transform: uppercase;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 32px;
+    width: calc(20% - 24px);
+    transition: all $default-time;
+
+    &:hover {
+      background: url(./img/general/black-button.png) center center/cover no-repeat;
+    }
+
+    &:last-child {
+      margin-right: 0;
+    }
+
+    img {
+      margin-right: 5px;
+    }
+  }
+}
+
+.filter-games {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 5px 0;
+
+  &__sort {
+    color: #fff;
+    font-size: rem-calc(13);
+    text-transform: uppercase;
+
+    a {
+      color: #fff;
+      font-weight: 700;
+    }
+
+    .separate {
+      display: inline-block;
+      margin: 0 5px;
+    }
+  }
+
+  &__search {
+    position: relative;
+
+    input[type=text] {
+      width: 239px;
+      height: 33px;
+      box-shadow: 0 0 8px 4px rgba(57, 139, 231, 0.75);
+      border: 2px solid #81fbff;
+      background-color: #000000;
+      color: #a2a1a1;
+      padding: 0 16px;
+      border-radius: $radius;
+      font-size: rem-calc(13);
+    }
+
+    button {
+      position: absolute;
+      right: 5px;
+      top: 8px;
+      font-size: 16px;
+      background: none;
+      cursor: pointer;
+      border: 0;
+      i:before {
+        text-shadow: 0 0 8px rgba(231, 82, 57, 0.75), 0 0 8px rgba(231, 82, 57, 0.75), 0 0 8px rgba(231, 82, 57, 0.75), 0 0 8px rgba(231, 82, 57, 0.75), 0 0 8px rgba(231, 82, 57, 0.75);
+        color: #ffce81;
+      }
+    }
+  }
+}

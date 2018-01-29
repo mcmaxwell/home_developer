@@ -1,0 +1,112 @@
+@import 'src/assets/scss/variables';
+
+.registration {
+  h2 {
+    text-shadow: 0 0 15px rgba(57, 139, 231, .35), 0 0 15px rgba(57, 139, 231, .35), 0 0 15px rgba(57, 139, 231, .35), 0 0 15px rgba(57, 139, 231, .35), 0 0 15px rgba(57, 139, 231, .35);
+    font-size: rem-calc(25);
+    font-weight: 700;
+    text-transform: uppercase;
+    margin: 0 0 25px;
+  }
+
+  .registration__info {
+    display: inline-block;
+    margin-bottom: 45px;
+  }
+
+  .required-symbol {
+    color: #65b9ff;
+  }
+
+  .field {
+    position: relative;
+    width: 65.6%;
+  }
+
+  .field-contain {
+    margin-bottom: 25px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+
+    &.ip-field {
+      .field {
+        width: 47.47%;
+        margin-right: 15px;
+      }
+    }
+
+    input:not([type=submit]):not([type=radio]):not([type=checkbox]) {
+      border-radius: $radius;
+      border: 1px solid #138ff7;
+      background-color: #000;
+      height: 30px;
+      color: #fff;
+      padding: 0 8px;
+      box-sizing: border-box;
+      width: 100%;
+    }
+
+    label {
+      font-weight: 300;
+      width: 33.87%;
+    }
+  }
+
+  .add-ip {
+    width: 16px;
+    height: 16px;
+    border-radius: $radius;
+    background-color: #138ff7;
+    border: 0;
+    cursor: pointer;
+    color: #fff;
+    font-size: rem-calc(17);
+    font-weight: 700;
+    margin-right: 8px;
+    padding: 0 0 0 2px;
+    text-align: center;
+    line-height: 16px;
+  }
+
+  .add-ip__contain {
+    display: flex;
+    align-items: center;
+    span {
+      font-size: rem-calc(12);
+    }
+  }
+
+  .ip-contain {
+    margin-left: 33.87%;
+    width: 100%;
+
+    .ip {
+      display: flex;
+      justify-content: space-between;
+      margin: 13px 0;
+    }
+  }
+
+  .remove-ip {
+    position: relative;
+    top: 0;
+    left: 0;
+    text-transform: lowercase;
+    &::after, &::before {
+      top: 6.5px;
+    }
+  }
+
+  button[type=submit] {
+    padding-left: 37px;
+    padding-right: 37px;
+    float: right;
+
+    &:disabled {
+      filter: grayscale(100%);
+      pointer-events: none;
+      box-sizing: none;
+    }
+  }
+}

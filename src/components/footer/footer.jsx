@@ -56,7 +56,7 @@ const Footer = () => (
     <div className="payments-logo">
       {
         payments.map((val, index) => (
-          <a key={index} href={val.url}><img src={val.img} /></a>
+          <a key={index} href={val.url} className="payments-logo__item"><img src={val.img} /></a>
         ))
       }
     </div>

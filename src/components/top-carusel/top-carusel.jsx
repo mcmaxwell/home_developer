@@ -25,7 +25,7 @@ class TopCarusel extends React.Component {
     };
     return (
       <section className="top-carusel">
-        <Slider {...settings} classNme="sss">
+        <Slider {...settings}>
           {
             data.map((val, index) => (
               <a href={val.url} target="_blank" key={index}>

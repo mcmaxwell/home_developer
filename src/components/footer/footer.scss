@@ -1,1 +1,74 @@
 @import 'src/assets/scss/variables';
+
+.footer {
+  background-color: #000000;
+  border-style: solid;
+  border-width: 1px 0 0;
+  border-image-source: linear-gradient(to right, #2c6f91, #2c6f91 10%, #61aed4 20%, #afe1fa 30%, #61aed4 40%, #afe1fa 50%, #61aed4 60%, #afe1fa 69%, #61aed4 80%, #2c6f91 90%, #2c6f91);
+  border-image-slice: 1;
+  text-align: center;
+  padding: 27px 20px 190px;
+
+  &__menu {
+    justify-content: center;
+
+    li {
+      &::after {
+        content: "|";
+        color: #a2a1a1;
+      }
+
+      &:last-child {
+        &::after {
+          display: none;
+        }
+      }
+    }
+  }
+}
+
+.payments-logo {
+  padding: 19px 0;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 17px 0;
+
+  &::after,
+  &::before {
+    content: "";
+    max-width: 964px;
+    width: 100%;
+    left: 50%;
+    transform: translate(-50%);
+    position: absolute;
+    background-image: linear-gradient(to right, #000000 0%, #044c72 49%, #000000 99%, #000000 100%);
+    height: 2px;
+  }
+
+  &::before {
+    top: 0;
+  }
+
+  &::after {
+    bottom: 0;
+  }
+
+  .payments-logo__item {
+    filter: grayscale(100%);
+    transition: all $default-time;
+    margin: 0 16px;
+
+    &:hover {
+      filter: grayscale(0);
+    }
+  }
+}
+
+.copyright {
+  color: #898989;
+  font-size: rem-calc(10);
+  font-weight: 300;
+  text-transform: uppercase;
+}

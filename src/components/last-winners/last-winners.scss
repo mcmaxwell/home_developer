@@ -96,6 +96,18 @@
       color: #ffd0ca;
       font-family: FontAwesome;
       opacity: 1;
+      transition: all $default-time;
+    }
+
+    &:hover {
+      &:before {
+        color: #fbdcd4;
+        text-shadow: 0 0 20px rgba(255, 121, 85, 0.72),
+                     0 0 20px rgba(255, 121, 85, 0.72),
+                     0 0 20px rgba(255, 121, 85, 0.72),
+                     0 0 20px rgba(255, 121, 85, 0.72),
+                     0 0 20px rgba(255, 121, 85, 0.72);
+      }
     }
   }
 
