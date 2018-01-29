@@ -88,7 +88,7 @@ module.exports = {
         exclude: [/fonts/],
         use: [
           {
-            loader: 'file-loader?name=./src/assets/img/[name].[ext]',
+            loader: 'file-loader?name=src/assets/img/[name].[ext]',
           }
         ]
       },
@@ -97,7 +97,7 @@ module.exports = {
         exclude: [/img/],
         use: [
           {
-            loader: 'file-loader?name=./src/assets/fonts/[name].[ext]'
+            loader: 'file-loader?name=src/assets/fonts/[name].[ext]'
           }
         ]
       }

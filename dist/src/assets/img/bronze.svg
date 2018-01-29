@@ -1,0 +1,147 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="31.61mm" height="31.61mm" viewBox="0 0 89.6 89.6">
+  <defs>
+    <style>
+      .a {
+        fill: url(#a);
+      }
+
+      .b {
+        mask: url(#b);
+        filter: url(#n);
+      }
+
+      .c, .i, .j {
+        mix-blend-mode: multiply;
+      }
+
+      .c {
+        fill: url(#d);
+      }
+
+      .d {
+        isolation: isolate;
+      }
+
+      .e {
+        fill: url(#e);
+      }
+
+      .f {
+        fill: url(#f);
+      }
+
+      .g {
+        fill: url(#g);
+      }
+
+      .h {
+        fill: url(#h);
+      }
+
+      .i {
+        fill: url(#i);
+      }
+
+      .j {
+        opacity: 0.5;
+        fill: url(#j);
+      }
+
+      .k {
+        fill: url(#k);
+      }
+
+      .l {
+        mask: url(#l);
+      }
+
+      .m {
+        mask: url(#m);
+      }
+
+      .n {
+        filter: url(#c);
+      }
+    </style>
+    <linearGradient id="a" x1="13.12" y1="13.12" x2="38.43" y2="38.43" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#fff"/>
+      <stop offset="1" stop-color="#fff"/>
+    </linearGradient>
+    <filter id="c" x="0" y="-8592" width="68.07" height="32766" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+      <feFlood flood-color="#fff" result="bg"/>
+      <feBlend in="SourceGraphic" in2="bg"/>
+    </filter>
+    <mask id="b" x="0" y="-8592" width="68.07" height="32766" maskUnits="userSpaceOnUse">
+      <g class="n"/>
+    </mask>
+    <linearGradient id="d" x1="13.12" y1="13.12" x2="38.43" y2="38.43" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#1a1a1a"/>
+      <stop offset="0.02" stop-color="#1b1b1b"/>
+      <stop offset="0.59" stop-color="#2d2d2d"/>
+      <stop offset="1" stop-color="#333"/>
+    </linearGradient>
+    <linearGradient id="e" x1="13.12" y1="13.12" x2="76.48" y2="76.48" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#f09947"/>
+      <stop offset="0.32" stop-color="#f9b865"/>
+      <stop offset="0.44" stop-color="#f9b86d"/>
+      <stop offset="0.59" stop-color="#ec9b4f"/>
+      <stop offset="0.8" stop-color="#e07333"/>
+      <stop offset="1" stop-color="#da6d1c"/>
+    </linearGradient>
+    <linearGradient id="f" x1="14.75" y1="14.75" x2="74.85" y2="74.85" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#da6d1c"/>
+      <stop offset="0.2" stop-color="#e07333"/>
+      <stop offset="0.41" stop-color="#ec9b4f"/>
+      <stop offset="0.56" stop-color="#f9b86d"/>
+      <stop offset="0.68" stop-color="#f9b865"/>
+      <stop offset="1" stop-color="#f09947"/>
+    </linearGradient>
+    <linearGradient id="g" x1="20.04" y1="20.04" x2="69.56" y2="69.56" xlink:href="#e"/>
+    <linearGradient id="h" x1="21.76" y1="21.76" x2="67.84" y2="67.84" xlink:href="#f"/>
+    <linearGradient id="i" x1="27.79" y1="29.73" x2="58.14" y2="60.08" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#f09947"/>
+      <stop offset="0.5" stop-color="#f9b86d"/>
+      <stop offset="1" stop-color="#da6d1c"/>
+    </linearGradient>
+    <linearGradient id="j" x1="44.8" y1="66.37" x2="44.8" y2="23.23" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#da6d1c"/>
+      <stop offset="0.5" stop-color="#f9b865"/>
+      <stop offset="1" stop-color="#e07333"/>
+    </linearGradient>
+    <linearGradient id="k" x1="44.8" y1="64.37" x2="44.8" y2="25.23" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#e17735"/>
+      <stop offset="1" stop-color="#f9b865"/>
+    </linearGradient>
+    <mask id="l" x="0" y="0" width="68.07" height="68.07" maskUnits="userSpaceOnUse">
+      <path class="a" d="M6.51,68.06A44.81,44.81,0,0,1,68.06,6.51C68.46,9.16,9.16,68.46,6.51,68.06Z"/>
+    </mask>
+    <filter id="n" x="0" y="0" width="68.07" height="68.07" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+      <feFlood flood-color="#fff" result="bg"/>
+      <feBlend in="SourceGraphic" in2="bg"/>
+    </filter>
+    <mask id="m" x="0" y="0" width="68.07" height="68.07" maskUnits="userSpaceOnUse">
+      <g class="b">
+        <path class="c" d="M6.51,68.06A44.81,44.81,0,0,1,68.06,6.51C68.46,9.16,9.16,68.46,6.51,68.06Z"/>
+      </g>
+    </mask>
+  </defs>
+  <title>bronze</title>
+  <g class="d">
+    <g>
+      <g>
+        <circle class="e" cx="44.8" cy="44.8" r="44.8"/>
+        <circle class="f" cx="44.8" cy="44.8" r="42.5"/>
+        <circle class="g" cx="44.8" cy="44.8" r="35.02"/>
+        <circle class="h" cx="44.8" cy="44.8" r="32.58"/>
+        <path class="i" d="M56.2,43.13a11.07,11.07,0,0,0,3.19-8.18,10.81,10.81,0,0,0-3.69-8.17c-2.61-2.32-6.37-3.55-10.85-3.55a30.69,30.69,0,0,0-12.7,2.91l-1.52.78.53,1.62,2.16,6.65L34,37.45l2.1-1.12a18.15,18.15,0,0,1,7.19-1.92c1,0,3.38.15,3.38,1.49s-2.6,2.35-4.76,2.35H35.87V49H42c2.26,0,5.63,1,5.63,3.74,0,.55,0,2.21-4.58,2.21a21.24,21.24,0,0,1-8.18-2.19l-2.12-1.09L32,53.94l-2.13,6.84-.46,1.47,1.3.82a25.46,25.46,0,0,0,12.56,3.31c5,0,9.16-1.28,12.17-3.71a12.57,12.57,0,0,0,4.73-10.13h0C60.13,48.45,58.74,45.22,56.2,43.13Z"/>
+        <path class="j" d="M56.2,43.13a11.07,11.07,0,0,0,3.19-8.18,10.81,10.81,0,0,0-3.69-8.17c-2.61-2.32-6.37-3.55-10.85-3.55a30.69,30.69,0,0,0-12.7,2.91l-1.52.78.53,1.62,2.16,6.65L34,37.45l2.1-1.12a18.15,18.15,0,0,1,7.19-1.92c1,0,3.38.15,3.38,1.49s-2.6,2.35-4.76,2.35H35.87V49H42c2.26,0,5.63,1,5.63,3.74,0,.55,0,2.21-4.58,2.21a21.24,21.24,0,0,1-8.18-2.19l-2.12-1.09L32,53.94l-2.13,6.84-.46,1.47,1.3.82a25.46,25.46,0,0,0,12.56,3.31c5,0,9.16-1.28,12.17-3.71a12.57,12.57,0,0,0,4.73-10.13h0C60.13,48.45,58.74,45.22,56.2,43.13Z"/>
+        <path class="k" d="M43.1,64.37c9.23,0,14.9-4.76,14.9-11.83-.05-4.35-1.81-7.72-5.58-9.22a8.86,8.86,0,0,0,4.79-8.37c0-4.84-3.88-9.72-12.55-9.72a28.81,28.81,0,0,0-11.79,2.69L35,34.57a20.06,20.06,0,0,1,8.13-2.15c1.91,0,5.38.45,5.38,3.49s-4.06,4.35-6.76,4.35H37.69V47h4.09c3.79,0,7.63,2,7.63,5.74,0,2.82-2.35,4.21-6.58,4.21a23.13,23.13,0,0,1-9.1-2.42L31.6,61.37A23.52,23.52,0,0,0,43.1,64.37Z"/>
+      </g>
+      <g class="l">
+        <g class="m">
+          <path class="a" d="M6.51,68.06A44.81,44.81,0,0,1,68.06,6.51C68.46,9.16,9.16,68.46,6.51,68.06Z"/>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>
